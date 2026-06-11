@@ -1,0 +1,189 @@
+# ===========================
+# Gradle
+# ===========================
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+*.log
+
+# ===========================
+# Kotlin
+# ===========================
+*.class
+*.kotlin_module
+.kotlin/
+
+# ===========================
+# Android
+# ===========================
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.so
+*.zip
+
+# Local configuration
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# NDK
+obj/
+.externalNativeBuild/
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/gradle.xml
+.idea/misc.xml
+
+# Profiler
+*.hprof
+
+# ===========================
+# iOS/Xcode
+# ===========================
+# User-specific
+iosApp/*.xcodeproj/xcuserdata/
+iosApp/*.xcworkspace/xcuserdata/
+iosApp/*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+
+# Pods
+iosApp/Pods/
+iosApp/Podfile.lock
+
+# Build
+iosApp/build/
+iosApp/DerivedData/
+iosApp/*.ipa
+iosApp/*.dSYM.zip
+iosApp/*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+*.xcworkspace
+
+# macOS
+.DS_Store
+._*
+
+# ===========================
+# Desktop/JVM
+# ===========================
+# Exclude all JARs except gradle wrapper
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===========================
+# IDE - IntelliJ IDEA / Android Studio
+# ===========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# ===========================
+# IDE - VS Code
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# IDE - Eclipse
+# ===========================
+.classpath
+.project
+.settings/
+bin/
+
+# ===========================
+# Claude Code / AI Tools
+# ===========================
+.clinerules
+.aidigestignore
+.claudeignore
+.cursorrules
+.github/copilot-instructions.md
+.ai/
+.claude/
+
+# ===========================
+# Operating Systems
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===========================
+# Logs and temporary files
+# ===========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# ===========================
+# Environment and secrets
+# ===========================
+.env
+.env.local
+.env.*.local
+secrets.properties
+
+# ===========================
+# Testing
+# ===========================
+test-results/
+reports/
+*.test
+
+# ===========================
+# Documentation builds
+# ===========================
+/docs/build/
+
+# ===========================
+# Markdown Documentation
+# ===========================
+*.md
