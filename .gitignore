@@ -186,4 +186,10 @@ reports/
 # ===========================
 # Markdown Documentation
 # ===========================
-*.md
+# Keep important docs, ignore generated ones
+!README.md
+!CONTRIBUTING.md
+!LICENSE.md
+!GETTING_STARTED.md
+!QUICK_START.md
+!JAVA_TO_KOTLIN_GUIDE.md

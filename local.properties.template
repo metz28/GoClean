@@ -1,0 +1,10 @@
+# This file should be copied to local.properties and not committed to version control
+# Copy this file: cp local.properties.template local.properties
+
+# Android SDK location
+# Windows example: C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk
+# macOS/Linux example: /Users/YourName/Library/Android/sdk
+sdk.dir=
+
+# Alternatively, you can use ANDROID_HOME environment variable
+# ANDROID_HOME=/path/to/android/sdk
