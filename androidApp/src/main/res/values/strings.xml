@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GoClean</string>
+    <string name="accessibility_service_description">GoClean helps you stay focused by detecting and blocking short-form video content like Instagram Reels, YouTube Shorts, and TikTok. This service monitors app activity to identify when you access these features and redirects you away.</string>
 </resources>
