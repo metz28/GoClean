@@ -52,13 +52,17 @@ GoClean/
 #### iOS
 Open `iosApp/iosApp.xcodeproj` in Xcode and run.
 
-## Learning Resources
+## Current Status
 
-This project uses the **expect/actual** pattern for platform-specific code:
-- `expect` declarations in `commonMain` define what needs platform implementation
-- `actual` implementations in platform modules provide the specific functionality
+**Android:** Working implementation with AccessibilityService for content blocking and usage stats tracking.
 
-See `shared/src/commonMain/kotlin/com/goclean/app/Platform.kt` for an example.
+**Desktop/iOS:** Project structure exists but not yet implemented.
+
+## Documentation
+
+- **[Getting Started Guide](docs/GETTING_STARTED.md)** - Setup and initial configuration
+- **[Quick Start](docs/QUICK_START.md)** - Fast reference for Java developers
+- **[Java to Kotlin Guide](docs/JAVA_TO_KOTLIN_GUIDE.md)** - Comprehensive guide for Java developers
 
 ## Bundle ID
 `com.goclean.app`
