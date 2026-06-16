@@ -53,7 +53,7 @@ kotlin {
         // Android-specific code
         val androidMain by getting {
             dependencies {
-                implementation("androidx.core:core-ktx:1.12.0")
+                implementation("androidx.core:core-ktx:1.19.0")
             }
         }
 
