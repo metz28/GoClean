@@ -17,7 +17,7 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation(project(":shared"))
-                implementation("androidx.activity:activity-compose:1.8.2")
+                implementation("androidx.activity:activity-compose:1.13.0")
                 implementation(compose.material3)
             }
         }
