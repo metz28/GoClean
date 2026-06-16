@@ -1,6 +1,6 @@
 # Gradle version catalog for centralized dependency management
 [versions]
-kotlin = "1.9.22"
+kotlin = "2.4.0"
 compose = "1.5.12"
 android-gradle-plugin = "8.2.2"
 androidx-core = "1.12.0"
