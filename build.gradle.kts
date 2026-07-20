@@ -1,7 +1,7 @@
 // Root build file - configure plugins and versions here
 plugins {
     // Kotlin Multiplatform plugin
-    kotlin("multiplatform") version "1.9.22" apply false
+    kotlin("multiplatform") version "2.4.10" apply false
 
     // Android plugin
     id("com.android.application") version "8.2.2" apply false
