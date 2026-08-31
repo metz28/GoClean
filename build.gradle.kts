@@ -8,7 +8,7 @@ plugins {
     id("com.android.library") version "8.2.2" apply false
 
     // Compose Multiplatform plugin
-    id("org.jetbrains.compose") version "1.5.12" apply false
+    id("org.jetbrains.compose") version "1.12.0" apply false
 }
 
 // Clean task for the root project
